@@ -1,0 +1,15 @@
+Source: bunsen-keyring
+Section: misc
+Priority: extra
+Maintainer: Jens John <twoion@bunsenlabs.org>
+Homepage: https://www.bunsenlabs.org
+Standards-Version: 3.9.7
+Build-Depends: debhelper (>= 9)
+
+Package: bunsen-keyring
+Architecture: all
+Multi-Arch: foreign
+Depends: gpgv, ${misc:Depends}
+Recommends: gnupg
+Description: BunsenLabs GnuPG archive key
+ Provides the archive key used on *.pkg.bunsenlabs.org mirrors.

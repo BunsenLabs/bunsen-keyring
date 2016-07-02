@@ -1,0 +1,8 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install keyrings/*.gpg etc/apt/trusted.gpg.d
+	dh_install BunsenLabs-RELEASE.asc usr/share/bunsen-keyring
