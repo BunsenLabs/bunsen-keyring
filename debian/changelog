@@ -1,4 +1,4 @@
-bunsen-keyring (2016.7.2-1) jessie; urgency=high
+bunsen-keyring (2016.7.2-1) bunsen-hydrogen; urgency=high
 
   * Provide an up-to-date version of A0673F72FE62D9C5.
 
