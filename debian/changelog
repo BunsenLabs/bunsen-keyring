@@ -1,3 +1,16 @@
+bunsen-keyring (2019.01.19+bl9-1) helium; urgency=medium
+
+  * Rebuild for helium.
+  * Extend the validity of the key by 2 years.
+
+ -- Jens John <dev@2ion.de>  Sat, 19 Jan 2019 14:07:35 +0100
+
+bunsen-keyring (2016.7.2-2) helium; urgency=medium
+
+  * Rebuild for helium.
+
+ -- Jens John <dev@2ion.de>  Thu, 12 Oct 2017 20:01:46 +0200
+
 bunsen-keyring (2016.7.2-1) bunsen-hydrogen; urgency=high
 
   * Provide an up-to-date version of A0673F72FE62D9C5.
