@@ -1,6 +1,6 @@
-bunsen-keyring (2019.01.19-1) lithium; urgency=medium
+bunsen-keyring (2019.01.19+bl9-1) helium; urgency=medium
 
-  * Rebuild for lithium.
+  * Rebuild for helium.
   * Extend the validity of the key by 2 years.
 
  -- Jens John <dev@2ion.de>  Sat, 19 Jan 2019 14:07:35 +0100
