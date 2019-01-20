@@ -1,3 +1,9 @@
+bunsen-keyring (2019.01.19+bl9-2) helium; urgency=medium
+
+  * Bump compat level and define source version
+
+ -- Jens John <dev@2ion.de>  Sun, 20 Jan 2019 14:06:32 +0100
+
 bunsen-keyring (2019.01.19+bl9-1) helium; urgency=medium
 
   * Rebuild for helium.
