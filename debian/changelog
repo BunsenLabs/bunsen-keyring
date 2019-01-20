@@ -1,4 +1,4 @@
-bunsen-keyring (2019.01.19-3) lithium; urgency=medium
+bunsen-keyring (2019.01.19+bl10-1) lithium; urgency=medium
 
   * Define source format and bump compat level
 
