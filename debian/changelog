@@ -1,4 +1,10 @@
-bunsen-keyring (2019.01.19-1) lithium; urgency=medium
+bunsen-keyring (2019.01.19-3) lithium; urgency=medium
+
+  * Define source format and bump compat level
+
+ -- Jens John <dev@2ion.de>  Sun, 20 Jan 2019 14:06:00 +0100
+
+bunsen-keyring (2019.01.19-2) lithium; urgency=medium
 
   * Rebuild for lithium.
   * Extend the validity of the key by 2 years.
