@@ -1,3 +1,9 @@
+bunsen-keyring (2020.10.10+bl10-1) lithium; urgency=medium
+
+  * Extend key validity.
+
+ -- Jens John <dev@2ion.de>  Sat, 10 Oct 2020 17:42:52 +0200
+
 bunsen-keyring (2019.01.19+bl10-1) lithium; urgency=medium
 
   * Define source format and bump compat level
