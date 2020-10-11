@@ -18,5 +18,5 @@ steps:
   displayName: Install dockerbuild
 - script: mkdir -p $(Build.SourcesDirectory)/out
   displayName: Create .deb package output directory
-- script: $(pyTools.pythonLocation)/bin/dockerbuild -s $(Build.SourcesDirectory) -a amd64 -o $(Build.SourcesDirectory)/out -t 7200
+- script: $(pyTools.pythonLocation)/bin/dockerbuild build -s $(Build.SourcesDirectory) -a amd64 -o $(Build.SourcesDirectory)/out -t 7200
   displayName: Build .deb package
