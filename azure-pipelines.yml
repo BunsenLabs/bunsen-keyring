@@ -10,6 +10,7 @@ steps:
     versionSpec: '3.8'
     addToPath: true
     architecture: 'x64'
+  name: pyTools
 - task: DockerInstaller@0
   inputs:
     dockerVersion: '17.09.0-ce'
