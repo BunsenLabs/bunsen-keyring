@@ -1,0 +1,19 @@
+trigger:
+- lithium
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.8'
+    addToPath: true
+    architecture: 'x64'
+- task: DockerInstaller@0
+  inputs:
+    dockerVersion: '17.09.0-ce'
+- script: $(pyTools.pythonLocation)/bin/pip install https://github.com/BunsenLabs/dockerbuild/releases/download/1.0.0/dockerbuild-1.0.0-py3-none-any.whl
+  displayName: Install dockerbuild
+- script: mkdir -p $(Build.SourcesDirectory)/out
+- script: /usr/local/bin/dockerbuild -s $(Build.SourcesDirectory) -a amd64 -o $(Build.SourcesDirectory)/out -t 7200
