@@ -1,3 +1,9 @@
+bunsen-keyring (2020.10.10+bl8-2) bunsen-hydrogen; urgency=medium
+
+  * Fix compat level for oldoldstable build
+
+ -- Jens John <dev@2ion.de>  Sun, 15 Nov 2020 12:03:42 +0100
+
 bunsen-keyring (2020.10.10+bl8-1) bunsen-hydrogen; urgency=medium
 
   * Extend key validity
