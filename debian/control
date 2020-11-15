@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Jens John <twoion@bunsenlabs.org>
 Homepage: https://www.bunsenlabs.org
 Standards-Version: 3.9.7
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 8)
 
 Package: bunsen-keyring
 Architecture: all
