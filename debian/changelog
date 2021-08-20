@@ -1,3 +1,9 @@
+bunsen-keyring (2020.10.10+bl11-1) beryllium; urgency=medium
+
+  * Rebuild for BL Beryllium
+
+ -- Jens John <twoion@bunsenlabs.org>  Fri, 20 Aug 2021 18:37:18 +0200
+
 bunsen-keyring (2020.10.10+bl10-1) lithium; urgency=medium
 
   * Extend key validity.
