@@ -1,7 +1,7 @@
 Source: bunsen-keyring
 Section: misc
 Priority: extra
-Maintainer: Jens John <twoion@bunsenlabs.org>
+Maintainer: twoion@bunsenlabs.org
 Homepage: https://www.bunsenlabs.org
 Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 9)
