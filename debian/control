@@ -1,10 +1,13 @@
 Source: bunsen-keyring
 Section: misc
-Priority: extra
-Maintainer: twoion@bunsenlabs.org
-Homepage: https://www.bunsenlabs.org
-Standards-Version: 3.9.7
-Build-Depends: debhelper (>= 9)
+Priority: optional
+Maintainer: John Crawley <john@bunsenlabs.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 12)
+Homepage: https://github.com/BunsenLabs/bunsen-keyring
+Vcs-Browser: https://github.com/BunsenLabs/bunsen-keyring
+Vcs-Git: https://github.com/BunsenLabs/bunsen-keyring.git
+
 
 Package: bunsen-keyring
 Architecture: all
