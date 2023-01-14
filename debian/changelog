@@ -1,3 +1,10 @@
+bunsen-keyring (2023.01.14-1) beryllium; urgency=medium
+
+  * Use new signing key.
+  * Remove obsolete keys.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 14 Jan 2023 12:34:55 +0900
+
 bunsen-keyring (2022.12.06+bl11-1) beryllium; urgency=medium
 
   * Use most recent version of signing key.
