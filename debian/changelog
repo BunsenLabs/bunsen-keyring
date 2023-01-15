@@ -1,3 +1,9 @@
+bunsen-keyring (2023.01.14-1~bl9+2) helium; urgency=medium
+
+  * Use debhelper compat level 10.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 15 Jan 2023 17:51:47 +0900
+
 bunsen-keyring (2023.01.14-1~bl9+1) helium; urgency=medium
 
   * Backport for Helium.
