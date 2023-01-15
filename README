@@ -1,0 +1,9 @@
+README for the bunsen-keyring package
+=====================================
+
+The BunsenLabs project signs its Release files that are stored on the
+package server with the keys contained in this package.
+
+Each actively used key is placed in /etc/apt/trusted.gpg.d/ to be used 
+by "apt" and its apt-key command in versions 0.6 and later.
+The signatures of acquired Release files are checked against this key database.
