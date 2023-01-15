@@ -1,3 +1,10 @@
+bunsen-keyring (2023.01.14-1~bl10+1) lithium; urgency=medium
+
+  * Backport for Lithium.
+  * No source changes needed.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 15 Jan 2023 16:28:35 +0900
+
 bunsen-keyring (2023.01.14-1) beryllium; urgency=medium
 
   * Use new signing key.
