@@ -1,3 +1,16 @@
+bunsen-keyring (2023.01.14+bl12-1) boron; urgency=medium
+
+  * Rename binary package to bunsen-archive-keyring
+     for Debian standards compliance.
+  * Provide dummy transitional package bunsen-keyring
+     to make upgrades easier.
+  * Update debian/control for Debian Bookworm
+    - Standards version to 4.6.1.0
+    - Debhelper compatibility to 13
+    - Add Rules-Requires-Root: no
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 20 Jan 2023 12:04:11 +0900
+
 bunsen-keyring (2023.01.14-1) beryllium; urgency=medium
 
   * Use new signing key.
