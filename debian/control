@@ -2,17 +2,31 @@ Source: bunsen-keyring
 Section: misc
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Standards-Version: 4.5.1
-Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.6.1.0
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
 Homepage: https://github.com/BunsenLabs/bunsen-keyring
 Vcs-Browser: https://github.com/BunsenLabs/bunsen-keyring
 Vcs-Git: https://github.com/BunsenLabs/bunsen-keyring.git
 
 
-Package: bunsen-keyring
+Package: bunsen-archive-keyring
 Architecture: all
 Multi-Arch: foreign
 Depends: gpgv, ${misc:Depends}
 Recommends: gnupg
+Breaks: bunsen-keyring (<< 2023.01.14+bl12-1)
+Replaces: bunsen-keyring (<< 2023.01.14+bl12-1)
+Provides: bunsen-keyring
 Description: BunsenLabs GnuPG archive key
  Provides the archive key used on *.pkg.bunsenlabs.org mirrors.
+
+Package: bunsen-keyring
+Architecture: all
+Multi-Arch: foreign
+Section: oldlibs
+Depends: bunsen-archive-keyring, ${misc:Depends}
+Description: BunsenLabs GnuPG archive key (transitional package)
+ This transitional package only provides a dependency link to the
+ bunsen-archive-keyring package to help with package upgrades.
+ It can safely be removed once bunsen-archive-keyring has been installed.

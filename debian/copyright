@@ -2,7 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bunsen-keyring
 Source: https://github.com/BunsenLabs/bunsen-keyring
 Comment: This is BunsenLabs GnuPG keyrings of archive keys. 
- The keys don't fall under any copyright.  
+ The keys don't fall under any copyright.
  Everything else in the package is covered by the GNU GPL.
 
 Files: *

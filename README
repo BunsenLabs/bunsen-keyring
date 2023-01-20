@@ -1,5 +1,5 @@
-README for the bunsen-keyring package
-=====================================
+README for the bunsen-archive-keyring package
+=============================================
 
 The BunsenLabs project signs its Release files that are stored on the
 package server with the keys contained in this package.

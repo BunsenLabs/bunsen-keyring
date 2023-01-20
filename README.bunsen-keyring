@@ -1,0 +1,6 @@
+README for the bunsen-keyring package
+=====================================
+
+As of BunsenLabs Boron, bunsen-keyring is a dummy transitional package
+that depends on the renamed bunsen-archive-keyring.
+If bunsen-archive-keyring has been installed, bunsen-keyring may safely be removed.
