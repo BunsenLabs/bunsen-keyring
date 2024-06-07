@@ -6,7 +6,7 @@ Comment: This is BunsenLabs GnuPG keyrings of archive keys.
  Everything else in the package is covered by the GNU GPL.
 
 Files: *
-Copyright: 2022-2023 John Crawley <john@bunsenlabs.org>
+Copyright: 2022-2024 John Crawley <john@bunsenlabs.org>
 License: GPL-3.0+
 
 License: GPL-3.0+

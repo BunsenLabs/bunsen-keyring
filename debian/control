@@ -2,7 +2,7 @@ Source: bunsen-keyring
 Section: misc
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Standards-Version: 4.6.1.0
+Standards-Version: 4.6.2
 Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 Homepage: https://github.com/BunsenLabs/bunsen-keyring
