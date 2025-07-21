@@ -1,3 +1,9 @@
+bunsen-keyring (2025.07.21+bl13-1) carbon; urgency=medium
+
+  * Extend expiry date of BunsenLabs release signing key.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 21 Jul 2025 17:03:15 +0900
+
 bunsen-keyring (2023.01.14+bl13-1) carbon; urgency=medium
 
   * Update debian/control for Debian Trixie:
