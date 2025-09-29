@@ -14,7 +14,7 @@ Package: bunsen-archive-keyring
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Recommends: gpgv, gnupg
+Recommends: gnupg|gpgv
 Breaks: bunsen-keyring (<< 2023.01.14+bl12-1)
 Replaces: bunsen-keyring (<< 2023.01.14+bl12-1)
 Provides: bunsen-keyring
