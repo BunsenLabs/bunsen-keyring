@@ -13,8 +13,8 @@ Vcs-Git: https://github.com/BunsenLabs/bunsen-keyring.git
 Package: bunsen-archive-keyring
 Architecture: all
 Multi-Arch: foreign
-Depends: gpgv, ${misc:Depends}
-Recommends: gnupg
+Depends: ${misc:Depends}
+Recommends: gpgv, gnupg
 Breaks: bunsen-keyring (<< 2023.01.14+bl12-1)
 Replaces: bunsen-keyring (<< 2023.01.14+bl12-1)
 Provides: bunsen-keyring
