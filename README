@@ -4,6 +4,15 @@ README for the bunsen-archive-keyring package
 The BunsenLabs project signs its Release files that are stored on the
 package server with the keys contained in this package.
 
-Each actively used key is placed in /etc/apt/trusted.gpg.d/ to be used 
-by "apt" and its apt-key command in versions 0.6 and later.
+Each actively used .pgp key is placed in /usr/share/keyrings/ along with a symlink
+from the corresponding .gpg filename.
+
 The signatures of acquired Release files are checked against this key database.
+
+IMPORTANT NOTE:
+
+Equivalent armored .asc files are installed to /etc/apt/trusted.gpg.d/
+but this will cease with the BunsenLabs Nitrogen release. 
+By then, users should make sure that their apt sources have a
+"Signed-By" entry pointing to the .pgp file in /usr/share/keyrings/
+ 

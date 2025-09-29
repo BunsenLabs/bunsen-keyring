@@ -2,9 +2,8 @@ Source: bunsen-keyring
 Section: misc
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Build-Depends: debhelper-compat (= 13)
-Rules-Requires-Root: no
 Homepage: https://github.com/BunsenLabs/bunsen-keyring
 Vcs-Browser: https://github.com/BunsenLabs/bunsen-keyring
 Vcs-Git: https://github.com/BunsenLabs/bunsen-keyring.git
@@ -14,7 +13,7 @@ Package: bunsen-archive-keyring
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Recommends: gnupg|gpgv
+Recommends: gnupg | gpgv
 Breaks: bunsen-keyring (<< 2023.01.14+bl12-1)
 Replaces: bunsen-keyring (<< 2023.01.14+bl12-1)
 Provides: bunsen-keyring

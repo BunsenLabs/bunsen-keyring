@@ -1,1 +1,2 @@
-keys/* etc/apt/trusted.gpg.d
+keys/*.asc etc/apt/trusted.gpg.d
+keys/*.pgp usr/share/keyrings
