@@ -1,3 +1,13 @@
+bunsen-keyring (2025.07.21+bl13.1-1) carbon; urgency=medium
+
+  * Add a .pgp keyring to /usr/share/keyrings.
+     ( Users should add a "Signed-By" entry to their apt sources,
+      pointing to /usr/share/keyrings/bunsen-release.pgp )
+  * Replace hard dependency on gpgv, with Recommends,
+     as alternative to gnupg.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 29 Sep 2025 15:11:28 +0900
+
 bunsen-keyring (2025.07.21+bl13-1) carbon; urgency=medium
 
   * Extend expiry date of BunsenLabs release signing key.
